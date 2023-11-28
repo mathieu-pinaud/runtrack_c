@@ -32,15 +32,3 @@ char **array_clone(char **src, int n) {
     res[i] = NULL;
     return (res);
 }
-
-int main() {
-    char *str[] = {"Hello", "World", "!"};
-    char **res = array_clone(str, 3);
-    int i = 0;
-
-    while (res[i] != NULL) {
-        printf("%s\n", res[i]);
-        i++;
-    }
-    return (0);
-}

@@ -13,13 +13,3 @@ char *my_strdup(char *src)
     dest[i] = '\0';
     return (dest);
 }
-
-int main(void)
-{
-    char *str = "Hello World!";
-    char *str2 = my_strdup(str);
-
-    printf("%s\n", str2);
-    free(str2);
-    return (0);
-}

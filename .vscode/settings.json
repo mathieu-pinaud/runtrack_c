@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "Job4.C": "cpp"
+        "Job4.C": "cpp",
+        "project.h": "c"
     }
 }
